@@ -1,0 +1,55 @@
+.boton {
+  --btn-font-family: var(--mlt-sys-font-sans-serif);
+  --btn-font-size: var(--mlt-sys-font-size-4);
+  --btn-padding: var(--mlt-sys-padding-2);
+  --btn-border-radius: var(--mlt-sys-border-radius-4);
+  --btn-border-width: var(--mlt-sys-width-1);
+  --btn-border-style: solid;
+  --btn-border-color: var(--mlt-sys-color-principal-3);
+  --btn-background-color: var(--mlt-sys-color-principal-4);
+  --btn-color: var(--mlt-sys-color-blanco-9);
+
+  font-family: var(--btn-font-family);
+  font-size: var(--btn-font-size);
+  padding: var(--btn-padding);
+  border-radius: var(--btn-border-radius);
+  border-width: var(--btn-border-width);
+  border-style: var(--btn-border-style);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border-color: var(--btn-border-color);
+  background-color: var(--btn-background-color);
+  color: var(--btn-color);
+}
+
+/* Variantes */
+.funcion--normal {
+  --function--normal-border-color: var(--mlt-sys-color-principal-3);
+  --function--normal-background-color: var(--mlt-sys-color-principal-4);
+  --function--normal-color: var(--mlt-sys-color-blanco-9);
+
+  border-color: var(--function--normal-border-color);
+  background-color: var(--function--normal-background-color);
+  color: var(--function--normal-color);
+}
+
+.funcion--alternativa {
+  --function--alternativa-border-color: var(--mlt-sys-color-alternativo-6);
+  --function--alternativa-background-color: var(--mlt-sys-color-alternativo-6);
+  --function--alternativa-color: var(--mlt-sys-color-blanco-9);
+
+  border-color: var(--function--alternativa-border-color);
+  background-color: var(--function--alternativa-background-color);
+  color: var(--function--alternativa-color);
+}
+
+.funcion--peligrosa {
+  --function--peligrosa-border-color: var(--mlt-sys-color-rojo-5);
+  --function--peligrosa-background-color: var(--mlt-sys-color-rojo-6);
+  --function--peligrosa-color: var(--mlt-sys-color-blanco-9);
+
+  border-color: var(--function--peligrosa-border-color);
+  background-color: var(--function--peligrosa-background-color);
+  color: var(--function--peligrosa-color);
+}
