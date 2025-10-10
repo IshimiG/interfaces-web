@@ -1,0 +1,57 @@
+.panel {
+    --panel-border-color: var(--mlt-sys-color-gris-4);
+    --panel-border-radius: var(--mlt-sys-border-radius-4);
+    --panel-margin: var(--mlt-sys-margin-4);
+    --panel-width: 250px;
+    --panel-font-family: var(--mlt-sys-font-sans-serif);
+
+    border: var(--panel-border-color) solid var(--mlt-sys-width-2);
+    border-radius: var(--panel-border-radius);
+    margin: var(--panel-margin);
+    width: var(--panel-width);
+    font-family: var(--panel-font-family);
+}
+
+.cabezera {
+    --cabezera-bg-color: var(--mlt-sys-color-gris-4);
+    --cabezera-font-size: var(--mlt-sys-font-size-6);
+    --cabezera-padding: var(--mlt-sys-padding-4);
+    --cabezera-text-color: var(--mlt-sys-color-blanco-9);
+    --cebezera-font-weight: bold;
+
+    background-color: var(--cabezera-bg-color);
+    font-size: var(--cabezera-font-size);
+    padding: var(--cabezera-padding);
+    color: var(--cabezera-text-color);
+    font-weight: var(--cebezera-font-weight);
+}
+
+.content {
+    --content-padding: var(--mlt-sys-padding-4);
+    --content-font-size: var(--mlt-sys-font-size-4);
+    --content-text-color: var(--mlt-sys-color-principal-1);
+
+    padding: var(--content-padding);
+    font-size: var(--content-font-size);
+    color: var(--content-text-color);
+}
+
+.azul .cabezera {
+    --cabezera-bg-color: var(--mlt-sys-color-principal-6);
+}
+.azul  {
+    --panel-border-color: var(--mlt-sys-color-principal-6);
+}
+.naranja .cabezera {
+    --cabezera-bg-color: var(--mlt-sys-color-alternativo-6);
+}
+.naranja  {
+    --panel-border-color: var(--mlt-sys-color-alternativo-6);
+}
+.rojo .cabezera {
+    --cabezera-bg-color: var(--mlt-sys-color-rojo-6);
+}
+.rojo  {
+    --panel-border-color: var(--mlt-sys-color-rojo-6);
+}
+
