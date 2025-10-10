@@ -170,3 +170,33 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --mlt-sys-width-10: 36px;
   --mlt-sys-width-11: 40px;
 }
+
+@for $i from 1 through 11 {
+  .g--font-size-#{$i} { font-size: var(--mlt-sys-font-size-#{$i}); }
+}
+@for $i from 0 through 10 {
+  .g--margin-#{$i} { margin: var(--mlt-sys-margin-#{$i}); }
+}
+@for $i from 0 through 10 {
+  .g--margin-horizontal-#{$i} { margin-top: var(--mlt-sys-margin-#{$i}); margin-bottom: var(--mlt-sys-margin-#{$i}); }
+  .g--margin-vertical-#{$i} { margin-left: var(--mlt-sys-margin-#{$i}); margin-right: var(--mlt-sys-margin-#{$i}); }
+}
+@for $i from 0 through 10 {
+  .g--margin-top-#{$i} { margin-top: var(--mlt-sys-margin-#{$i}); }
+  .g--margin-buttom-#{$i} { margin-bottom: var(--mlt-sys-margin-#{$i}); }
+  .g--margin-right-#{$i} { margin-right: var(--mlt-sys-margin-#{$i}); }
+  .g--margin-left-#{$i} { margin-left: var(--mlt-sys-margin-#{$i}); }
+}
+@for $i from 0 through 10 {
+  .g--padding-#{$i} { padding: var(--mlt-sys-padding-#{$i}); }
+}
+@for $i from 0 through 10 {
+  .g--padding-horizontal-#{$i} { padding-top: var(--mlt-sys-padding-#{$i}); padding-bottom: var(--mlt-sys-padding-#{$i}); }
+  .g--padding-vertical-#{$i} { padding-left: var(--mlt-sys-padding-#{$i}); padding-right: var(--mlt-sys-padding-#{$i}); }
+}
+@for $i from 0 through 10 {
+  .g--padding-top-#{$i} { padding-top: var(--mlt-sys-padding-#{$i}); }
+  .g--padding-buttom-#{$i} { padding-bottom: var(--mlt-sys-padding-#{$i}); }
+  .g--padding-right-#{$i} { padding-right: var(--mlt-sys-padding-#{$i}); }
+  .g--padding-left-#{$i} { padding-left: var(--mlt-sys-padding-#{$i}); }
+}
