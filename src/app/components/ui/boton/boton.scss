@@ -53,3 +53,39 @@
   background-color: var(--function--peligrosa-background-color);
   color: var(--function--peligrosa-color);
 }
+
+.importancia--primaria {
+  --importancia--primaria-color: var(--mlt-sys-color-blanco-9);
+  --importancia--primaria-border-radius: var(--mlt-sys-border-radius-4);
+  --importancia--primaria-padding: var(--mlt-sys-padding-2);
+
+
+  border-radius: var(--importancia--primaria-border-radius);
+  color: var(--importancia--primaria-color);
+  padding: var(--importancia--primaria-padding);
+}
+
+.importancia--secundaria {
+  --importancia--secundaria-bg-color: var(--mlt-sys-color-blanco-9);
+  --importancia--secundaria-color: var(--mlt-sys-color-principal-4);
+  --importancia--secundaria-border-radius: var(--mlt-sys-border-radius-4);
+  --importancia--secundaria-padding: var(--mlt-sys-padding-2);
+
+  background-color: var(--importancia--secundaria-bg-color);
+  border-radius: var(--importancia--secundaria-border-radius);
+  color: var(--importancia--secundaria-color);
+  padding: var(--importancia--secundaria-padding);
+}
+
+.importancia--terciaria {
+  --importancia--terciaria-bg-color: transparent;
+  --importancia--terciaria-border-color: transparent;
+  --importancia--terciaria-color: var(--mlt-sys-color-principal-4);
+  --importancia--terciaria-padding: var(--mlt-sys-padding-2);
+
+
+  background-color: var(--importancia--terciaria-bg-color);
+  border: 1px solid var(--importancia--terciaria-border-color);
+  color: var(--importancia--terciaria-color);
+  padding: var(--importancia--terciaria-padding);
+}
