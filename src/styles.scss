@@ -200,3 +200,34 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .g--padding-right-#{$i} { padding-right: var(--mlt-sys-padding-#{$i}); }
   .g--padding-left-#{$i} { padding-left: var(--mlt-sys-padding-#{$i}); }
 }
+
+.flex {
+  display: flex;
+  
+  &--direction-row {
+    flex-direction: row;
+  }
+  &--direction-column {
+    flex-direction: column;
+  }
+
+  &--align-center {
+    align-items: center;
+  }
+  &--align-start {
+    align-items: flex-start;
+  }
+  &--align-end {
+    align-items: flex-end;
+  }
+
+  &--justify-center {
+    justify-content: center;
+  }
+  &--justify-start {
+    justify-content: flex-start;
+  }
+  &--justify-end {
+    justify-content: flex-end;
+  }
+}
