@@ -29,9 +29,13 @@
 <boton [funcion]="'peligrosa'" [importancia]="'terciaria'">Mas Informacion</boton>
 
 <flex [direction]="'row'" [justify]="'end'" [align]="'start'">Macarrones</flex>
-<flex [direction]="'column'" [justify]="'center'" [align]="'center'">Macarrones</flex>
+<flex [direction]="'row'" [justify]="'start'" [align]="'start'">Macarrones</flex>
 
-<div class="flex direction--row justify--center align--end"></div>
+<div flex2 direction="column" justify="center" align="center">
+    <div>Macarrones</div>
+    <div>Con tomate</div>
+    <div>Y queso rallado</div>
+</div>
 
 
 <router-outlet />

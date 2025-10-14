@@ -7,7 +7,6 @@ import { CommonModule } from '@angular/common';
     imports: [CommonModule],
     templateUrl: './flex.html',
     styleUrls: ['./flex.scss'],
-    encapsulation: ViewEncapsulation.None
 })
 export class Flex { 
     @Input() direction: 'row' | 'column' = 'row';
