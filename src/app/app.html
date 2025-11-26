@@ -1,4 +1,4 @@
-<br>
+<!-- <br>
 <boton [funcion]="'normal'">Hola Mundo</boton>
 <boton [funcion]="'alternativa'" (onClick)="alerta()">Hola Mundo</boton>
 <boton [funcion]="'peligrosa'">Hola Mundo</boton>
@@ -35,7 +35,19 @@
     <div>Macarrones</div>
     <div>Con tomate</div>
     <div>Y queso rallado</div>
-</div>
+</div> -->
+
+<app-producto
+    [id]="2013"
+    [name]="'Monitor Acer Nitro KG241YX3BIP...'"
+    [urlImage]="'https://logongas.es/lib/exe/fetch.php?cache=&media=clase:daw:diw:1eval:monitor.webp'"
+    [precioActual]="89.99"
+    [precioAnterior]="99.99"
+    [valoracion]="4.6"
+    [opiniones]="235"
+    [fechaEnvio]="''"
+    [precioEnvio]="0.00"
+    [otrosEnvios]=false />
 
 
 <router-outlet />

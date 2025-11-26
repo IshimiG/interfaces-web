@@ -1,0 +1,13 @@
+.c-articulo {
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 197px;
+    color: #333333;
+    &__title { font-size: 14px; font-weight: 500; color: #333; }
+    &__precio {
+        &--actual { font-size: 17px; font-weight: 700; color: #bf0019; }
+        &--anterior { font-size: 14px; color: #6e6e6e; }
+        &--envio { color: #ff7a00; font-weight: 600; }
+    }
+    &__valoracion { font-size: 13px; font-weight: 600; color: #333; }
+    &__opiniones { color: #333333; font-size: 13px; }
+}

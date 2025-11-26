@@ -4,10 +4,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { Boton } from './components/ui/boton/boton';
 import { Panel } from './components/ui/panel/panel';
 import { Flex } from './components/ui/flex/flex';
+import { Producto } from "./components/ui/producto/producto";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MatButtonModule, Boton, Panel, Flex],
+  imports: [RouterOutlet, MatButtonModule, Boton, Panel, Flex, Producto],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
